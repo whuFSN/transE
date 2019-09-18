@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 CUDA_VISIBLE_DEVICES=0 \
-python main.py \
+python36 main.py \
 --data_dir ../data/FB15k/ \
 --embedding_dim 100 \
 --margin_value 1 \
